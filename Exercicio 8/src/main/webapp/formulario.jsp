@@ -36,7 +36,7 @@
 				<c:otherwise>
 					<div class="inputs">
 						<input type="hidden" name="id" value="${user.id}"/>
-						<label>Nome:</label><input type="text" name="name" value="${user.nome}" required/>
+						<label>Nome:</label><input type="text" name="name" value="${user.name}" required/>
 						<label>Email:</label><input type="text" name="email" value="${user.email}"/>
 						<label>País:</label><input type="text" name="pais" value="${user.pais}"/>
 					

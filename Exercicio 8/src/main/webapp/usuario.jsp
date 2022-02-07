@@ -44,7 +44,7 @@
 								<c:out value="${usuario.id}"/>
 								<input type="hidden" name="id" value="${usuario.id}"/>
 							</td>
-							<td><c:out value="${usuario.nome}"/></td>
+							<td><c:out value="${usuario.name}"/></td>
 							<td><c:out value="${usuario.email}"/></td>
 							<td><c:out value="${usuario.pais}"/></td>
 							<td class="btnAcoes">

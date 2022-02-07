@@ -1,14 +1,15 @@
 package br.com.dev;
 
+
 public class User {
 	
 	private Integer id;
-	private String nome;
+	private String name;
 	private String pais;
 	private String email;
 
-	public User(String nome, String pais, String email) {
-		this.nome = nome;
+	public User(String name, String pais, String email) {
+		this.name = name;
 		this.pais = pais;
 		this.email = email;
 	}
@@ -21,12 +22,12 @@ public class User {
 		return this.id;
 	}
 	
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public String getNome() {
-		return this.nome;
+	public String getName() {
+		return this.name;
 	}
 	
 	public void setEmail(String email) {
@@ -46,6 +47,6 @@ public class User {
 	}
 	
 	public String toString() {
-		return this.id + " - " + this.nome + " - " + this.email + " - " + this.pais; 
+		return this.id + " - " + this.name + " - " + this.email + " - " + this.pais; 
 	}
 }
